@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./bookmark-5-16.ico" type="image/x-icon">
+    <title>signup</title>
+    <meta name="description" content="Favorite websites">
+    <meta name="author" content="Khaled Abdelsalam">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="container d-flex justify-content-center pt-5">
+            <div
+                class="input-field shadow-lg p-5 d-flex flex-wrap flex-column align-items-center justify-content-center shadow-lg">
+                <h1 class="p-0 m-0">Smart Login System</h1>
+
+
+                <div class="py-0  w-100">
+                    <label for="Name" class="form-label"></label>
+                    <input type="email" class="form-control" id="Name" placeholder="Enter Your Name">
+                </div>
+
+                <div class="py-0  w-100">
+                    <label for="signupEmail" class="form-label"></label>
+                    <input type="email" class="form-control" id="signupEmail" placeholder="Enter Your Email">
+                </div>
+
+                <div class="py-0 mb-2 w-100">
+                    <label for="signupPassword" class="form-label"></label>
+                    <input type="password" class="form-control" id="signupPassword" placeholder="Enter Your Password">
+                </div>
+
+                <span class="text-success d-none" id="sucess">success</span>
+
+                <span class="text-danger d-none" id="exist">Email already exist</span>
+
+                <button type="button" class="btn btn-outline-info w-100 my-3">sign up</button>
+
+                <p class="text-white">You have an account? <a href="#"> Sign in</a></p>
+
+                <p class="alert alert-danger bg-transparent text-danger d-none" id="alert">All inputs are required !</p>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signup.js"></script>
+</body>
+
+</html>

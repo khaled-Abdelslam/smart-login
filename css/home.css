@@ -1,0 +1,18 @@
+nav {
+
+    background-color: #24353F;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, .7);
+}
+
+body {
+    background-color: #24353F;
+}
+
+.input-field {
+    background-color: #24353F;
+    width: 65%;
+}
+
+h1 {
+    color: #17A2B8;
+}
