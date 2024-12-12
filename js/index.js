@@ -26,7 +26,7 @@ function login() {
 
   if (member()) {
     document.getElementById("user").classList.add("d-none");
-    location.href = "../home.html";
+    location.href = 'home.html';
     sessionStorage.setItem("sessionName", userName);
   } else {
     document.getElementById("user").classList.remove("d-none");
@@ -34,5 +34,5 @@ function login() {
 }
 
 document.querySelector("a").addEventListener("click", function () {
-  window.location.href = "../signup.html";
+  window.location.href = 'signup.html';
 });

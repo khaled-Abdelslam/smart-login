@@ -56,5 +56,5 @@ function clearInputs() {
 }
 
 document.querySelector("a").addEventListener("click", function () {
-  window.location.href = "../index.html";
+  window.location.href = 'index.html';
 });

@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click' , function(){location.href = '../index.html'})
+document.querySelector('button').addEventListener('click' , function(){location.href = 'index.html'})
 
 
 
